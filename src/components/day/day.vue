@@ -26,9 +26,6 @@
     mounted() {
       this.clearStyle();
     },
-    updated() {
-      this.clearStyle();
-    },
     methods: {
       clearStyle() {
         this.$nextTick(() => {
@@ -37,9 +34,6 @@
             tags[i].removeAttribute('style');// 清除图片原有格式，使用固定大小
           }
 
-          var iframe = this.$el.getElementsByTagName('iframe')[0]
-          iframe.width = this.$el.clientWidth;
-          console.log(iframe.width)
         });
       }
 
