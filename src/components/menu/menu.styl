@@ -18,13 +18,46 @@
         width 40%
         height auto
         border-radius 50%
-        margin 20px 70px
+        margin 15px 70px
+        cursor pointer
+        opacity 0.6
+        transition: all 0.35s
+        &:hover
+          opacity: 1;
+          transform:scale(1.2,1.2);
       .menu-title
-        font-size 14px
+        font-size 1.2rem
         color #ffffff
         line-height 28px
         font-weight 500
         text-align center
+        position relative
+        transition: all 0.4s ease-in
+
+
+        /* linkone */
+        a:before, a:after
+          content: '';
+          border-bottom: solid 1px white;
+          position: absolute;
+          bottom: 0;
+          width: 0;
+
+        a:before
+          left: 100px;
+        a:after
+          right: 100px;
+
+        a:hover:before, a:hover:after
+          width: 25px;
+
+
+        a:before, a:after
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+
+
+
     &.show
       transform translateX(250px)
     .menu-ul

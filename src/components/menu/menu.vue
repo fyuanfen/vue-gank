@@ -1,8 +1,8 @@
 <template>
     <div class="menu-list" :class="{'show': show}">
       <div class="menu-header">
-        <img class="menu-avatar" src="../../assets/avatar.png">
-        <div class="menu-title">Yuriel</div>
+        <a href="http://www.zyy1217.com" target="_blank"><img class="menu-avatar" src="../../assets/avatar.png"></a>
+        <div class="menu-title"><a href="https://github.com/fyuanfen/vue-gank" target="_blank">Yuriel</a></div>
       </div>
       <div class="menu-ul">
         <div v-for='(value,menuIndex) in menus' @click="updateHeader(menuIndex)">

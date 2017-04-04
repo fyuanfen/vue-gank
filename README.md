@@ -38,7 +38,8 @@
 ***
 #### 侧滑导航
 
-![](http://images.zyy1217.com/1.gif)
+![](http://images.zyy1217.com/gank1.gif)
+
 
 
 #### 瀑布流布局，无限滚动，图片懒加载
@@ -113,7 +114,7 @@ npm run build
 
 ### 最后
 ***
-
+* 我的另一个vue实战项目在线聊天室[vue-chatroom](https://github.com/fyuanfen/fyuanfen.github.io/tree/master/chatRoom)
 * 如果喜欢一定要 star哈!!!（谢谢!!）
 * 如果有意见和问题 请在 lssues提出，我会在线解答。
 
